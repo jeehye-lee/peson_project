@@ -1,0 +1,48 @@
+/*init*/
+*{margin:0; padding:0}
+body{font-size:12px; font-family:dotum,"돋움",Arial}
+li{list-style:none;}
+a{text-decoration:none; color:#666666}
+.ir{position:absolute; left:-9999999px; top:-9999999px; overflow:hidden; width:0; height:0;}
+fieldset,button{border:0 none;}
+button,input[type="submit"]{cursor: pointer}
+
+/*reset*/
+.border{border:1px #f00 solid; }
+
+/*topbar*/
+.topbar{height:30px; background-color:#f8f8f8; border-bottom:1px #d5d0cc solid;}
+.topbar .wrap{width:990px; height:30px; margin:0 auto;}
+.topbar p{float:left; margin-right:13px; line-height: 30px;}
+.topbar p img{margin-right:3px;}
+.topbar ul{float:left;}
+.topbar ul li{line-height:30px;}
+.topbar .topbar_menu{float:right;}
+.topbar .topbar_menu li{ display:inline; line-height:30px; }
+
+/*head*/
+#header .wrap{width:990px; height:189px; margin:0 auto;}
+#header .ct_wrap{width:687px; height:107px;}
+#header .head {position:relative;}
+#header .head li{display:inline; margin-right:6px;}
+#header .head h1{padding:34px 0 20px 0;}
+#header .top_centerbanner{position:absolute; margin-left:389px; margin-top:19px;}
+#header .top_centerbanner p{text-align:center; height:48px;}
+#header .top_centerbanner fieldset{border:none;}
+#header .top_centerbanner fieldset input[type="text"]{width:236px; height:21px; border:2px #3b5999 solid;}
+#header .top_centerbanner fieldset input[type="submit"]
+{
+    background-color:#3b5999;
+    width:40px;
+    height:25px;
+    border:0 none;
+    background:url("../image/image2/icon_4.jpg") no-repeat;
+    text-indent: -9999px;
+}
+
+#header .promotion{float:right; margin-top:10px;}
+
+#header .manu_bar{background-color:#3b5998; height:39px;}
+#header .manu_bar li{float:left;}
+#header .manu_bar li a{padding:0 7px; display:block; line-height:39px; background:url("../image/image2/보배드림site_59(최종)_59.jpg") no-repeat 0 10px;}
+#header .manu_bar li:first-child a{background:none;}

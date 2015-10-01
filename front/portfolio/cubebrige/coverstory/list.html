@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>list</title>
+
+
+<base href="file:///D:/UIUX_LEEJIHYE/peson_project/" target="_self"/>
+<link rel="stylesheet" href="lib/css/list.css"/>
+<script type="text/javascript" src="lib/js/jquery.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.icon-grid').click(function(){
+			$('.view-list').removeClass().addClass('webzine-list');
+
+			return false;
+		});
+
+
+		$('.icon-list').click(function(){
+			$('.webzine-list').removeClass().addClass('view-list');
+
+			return false;
+		});
+
+		$('.fix_option').click(function(){
+			$(this).next('ul').slideToggle()
+
+		})
+
+
+
+
+	});
+
+
+
+</script>
+
+</head>
+
+
+
+
+<body>
+
+	<div class="top_search">
+		<div class="wrap">
+			<fieldset>
+				<legend class="ir">search</legend>
+				<label for="search"></label>
+				<input type="text" id="search" />
+				<input type="submit" value="search"/>
+			</fieldset>
+		</div>
+	</div>
+
+	<div id="top">
+		<div id="top_head">
+			<div class="head" class="border">
+				<div class="promotion">
+					<ul>
+						<li class="on">
+							<a href=""><img src="lib/image/one2.png" alt=""/></a>
+							<div><img src="lib/image/@top_event.png" alt=""/></div>
+						</li>
+						<li>
+							<a href=""><img src="lib/image/one1.png" alt=""/></a>
+							<div><img src="lib/image/@top_event.png" alt=""/></div>
+						</li>
+						<li>
+							<a href=""><img src="lib/image/one1.png" alt=""/></a>
+							<div><img src="lib/image/@top_event.png" alt=""/></div>
+						</li>
+						<li>
+							<a href=""><img src="lib/image/one1.png" alt=""/></a>
+							<div><img src="lib/image/@top_event.png" alt=""/></div>
+						</li>
+					</ul>
+				</div>
+
+
+				<h1><img src="lib/image/cubebridge_logo.png" alt="logo cube bridge" />
+				</h1>
+				<ul>
+					<li><a href=""><img src="lib/image/lmb_creators.png" alt="creators" /></a></li>
+					<li><a href=""><img src="lib/image/lmb_potfoliobox.png" alt="portfoliobox" /></a></li>
+					<li><a href=""><img src="lib/image/lmb_productplace.png" alt="poductplace" /></a></li>
+					<li><a href=""><img src="lib/image/lmb_event.png" alt="event" /></a></li>
+					<li><a href=""><img src="lib/image/lmb_webzine.png" alt="webzine" /></a>
+						<div class="lnb">
+							<ul>
+								<li><a href="">Cove Story</a></li>
+								<li><a href="">Creat News</a>
+									<div class="lnb2">
+										<ul>
+											<li><a href="">Best portfolio</a></li>
+											<li><a href="">Hot Issue</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="">공연&행사</a></li>
+								<li><a href="">Talent Association</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	
+
+
+		<div class="top_menu">	</div>
+
+
+		<div class="h2_subtitle">
+				<h2 class="ct_wrap">
+					<img src="lib/image/cover_story.png" alt="" />
+					<span><img src="lib/image/인기creat.png" alt="" /></span>
+				</h2>
+			<div id="cover_story" class="sub_layout depth2">
+				<div class="ct_wrap">
+					<div class="section">
+						<div class="headding">
+							<h2><img src="lib/image/creator_inteview.png" alt=""></h2>
+
+							<fieldset class="headsearch">
+								<legend class="hide">검색</legend>
+								<label for="head_search" class="hide">검색</label>
+								<input type="text" id="head_search">
+								<input type="submit" value="검색">
+							</fieldset>
+						</div>
+
+						<div class="list-option">
+							<div class="select_style" style="width:250px">
+								<div class="fix_option">Category</div>
+								<ul class="selesct_option_listnone">
+									<li>category option</li>
+									<li>category option</li>
+									<li>category option</li>
+									<li>category option</li>
+									<li>category option</li>
+								</ul>
+							</div>
+
+							<div class="list-type">
+								<a href="" class="icon-grid">List view</a>
+								<a href="" class="icon-list ative">Story view</a>
+							</div>
+						</div>
+
+
+
+
+
+						<div class="webzine-list">
+							<ul class="listnone">
+								<li >
+									<div class="thumb-images"><img src="lib/image/thum_img.png" alt=""></div>
+									<div class="content-view">
+										<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+										<p>음악의 나의 스토리를 닮은 Master Piece!
+											음악의 나의 스토리를 닮은 Master Piece!
+											음악의 나의 스토리를 닮은 Master Piece!
+											음악의 나의 스토리를 닮은 Master Piece!
+										</p>
+									</div>
+									<dl class="infomation base">
+										<dt class="hide">작성일</dt>
+			                            <dd class="date">2013년 1월 15일 </dd>
+			                            <dt class="hide">작성자</dt>
+			                            <dd class="writer slist">양준모</dd>
+			                        </dl>
+								</li>
+								<li>
+									<div class="thumb-images"><img src="lib/image/thum2_img.png" alt=""></div>
+									<div class="content-view">
+										<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+										<p>음악의 나의 스토리를 닮은 Master Piece!</p>
+									</div>
+									<dl class="infomation base">
+										<dt class="hide">작성일</dt>
+										<dd class="date">2013년 1월 15일 </dd>
+										<dt class="hide">작성자</dt>
+										<dd class="writer slist">양준모</dd>
+									</dl>
+								</li>
+								<li>
+									<div class="thumb-images"><img src="lib/image/thum_img.png" alt=""></div>
+									<div class="content-view">
+										<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+										<p>음악의 나의 스토리를 닮은 Master Piece!</p>
+									</div>
+									<dl class="infomation base">
+										<dt class="hide">작성일</dt>
+										<dd class="date">2013년 1월 15일 </dd>
+										<dt class="hide">작성자</dt>
+										<dd class="writer slist">양준모</dd>
+									</dl>
+								</li>
+								<li>
+									<div class="thumb-images"><img src="lib/image/thum2_img.png" alt=""></div>
+									<div class="content-view">
+										<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+										<p>음악의 나의 스토리를 닮은 Master Piece!</p>
+									</div>
+									<dl class="infomation base">
+										<dt class="hide">작성일</dt>
+										<dd class="date">2013년 1월 15일 </dd>
+										<dt class="hide">작성자</dt>
+										<dd class="writer slist">양준모</dd>
+									</dl>
+								</li>
+								<li>
+									<div class="thumb-images"><img src="lib/image/thum_img.png" alt=""></div>
+									<div class="content-view">
+										<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+										<p>음악의 나의 스토리를 닮은 Master Piece!</p>
+									</div>
+									<dl class="infomation base">
+										<dt class="hide">작성일</dt>
+										<dd class="date">2013년 1월 15일 </dd>
+										<dt class="hide">작성자</dt>
+										<dd class="writer slist">양준모</dd>
+									</dl>
+								</li>
+								<li>
+									<div class="thumb-images"><img src="lib/image/thum2_img.png" alt=""></div>
+									<div class="content-view">
+										<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+										<p>음악의 나의 스토리를 닮은 Master Piece!</p>
+									</div>
+									<dl class="infomation base">
+										<dt class="hide">작성일</dt>
+										<dd class="date">2013년 1월 15일 </dd>
+										<dt class="hide">작성자</dt>
+										<dd class="writer slist">양준모</dd>
+									</dl>
+								</li>
+								<li>
+									<div class="thumb-images"><img src="lib/image/thum_img.png" alt=""></div>
+									<div class="content-view">
+										<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+										<p>음악의 나의 스토리를 닮은 Master Piece!</p>
+									</div>
+									<dl class="infomation base">
+										<dt class="hide">작성일</dt>
+										<dd class="date">2013년 1월 15일 </dd>
+										<dt class="hide">작성자</dt>
+										<dd class="writer slist">양준모</dd>
+									</dl>
+								</li>
+								<li>
+									<div class="thumb-images"><img src="lib/image/thum2_img.png" alt=""></div>
+									<div class="content-view">
+										<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+										<p>음악의 나의 스토리를 닮은 Master Piece!</p>
+									</div>
+									<dl class="infomation base">
+										<dt class="hide">작성일</dt>
+										<dd class="date">2013년 1월 15일 </dd>
+										<dt class="hide">작성자</dt>
+										<dd class="writer slist">양준모</dd>
+									</dl>
+								</li>
+								<li>
+									<div class="thumb-images"><img src="lib/image/thum_img.png" alt=""></div>
+									<div class="content-view">
+										<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+										<p>음악의 나의 스토리를 닮은 Master Piece!</p>
+									</div>
+									<dl class="infomation base">
+										<dt class="hide">작성일</dt>
+										<dd class="date">2013년 1월 15일 </dd>
+										<dt class="hide">작성자</dt>
+										<dd class="writer slist">양준모</dd>
+									</dl>
+								</li>
+								<li>
+									<div class="thumb-images"><img src="lib/image/thum2_img.png" alt=""></div>
+									<div class="content-view">
+										<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+										<p>음악의 나의 스토리를 닮은 Master Piece!</p>
+									</div>
+									<dl class="infomation base">
+										<dt class="hide">작성일</dt>
+										<dd class="date">2013년 1월 15일 </dd>
+										<dt class="hide">작성자</dt>
+										<dd class="writer slist">양준모</dd>
+									</dl>
+								</li>
+								<li>
+									<div class="thumb-images"><img src="lib/image/thum_img.png" alt=""></div>
+									<div class="content-view">
+										<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+										<p>음악의 나의 스토리를 닮은 Master Piece!</p>
+									</div>
+									<dl class="infomation base">
+										<dt class="hide">작성일</dt>
+										<dd class="date">2013년 1월 15일 </dd>
+										<dt class="hide">작성자</dt>
+										<dd class="writer slist">양준모</dd>
+									</dl>
+								</li>
+								<li>
+									<div class="thumb-images"><img src="lib/image/thum2_img.png" alt=""></div>
+									<div class="content-view">
+										<strong>음악은 나의 스토리를 닮은 Master Piece!</strong>
+										<p>음악의 나의 스토리를 닮은 Master Piece!</p>
+									</div>
+									<dl class="infomation base">
+										<dt class="hide">작성일</dt>
+										<dd class="date">2013년 1월 15일 </dd>
+										<dt class="hide">작성자</dt>
+										<dd class="writer slist">양준모</dd>
+									</dl>
+								</li>
+							</ul>
+						</div>
+
+						<div class="paging">
+							<span class="leftbtn">
+								<a href="" class="first-btn">처음으로</a>
+								<a href="" class="prev-btn">이전</a>
+							</span>
+							<span>
+								<a href="" class="on"><span>1</span></a>
+								<a href=""><span>2<span></a>
+								<a href=""><span>3<span></a>
+								<a href=""><span>4<span></a>
+								<a href=""><span>5<span></a>
+								<a href=""><span>6<span></a>
+								<a href=""><span>7<span></a>
+								<a href=""><span>8<span></a>
+								<a href=""><span>9<span></a>
+							</span>
+							<span class="rightbtn">
+								<a href="" class="next-btn">다음</a>
+								<a href="" class="end-btn">끝으로</a>
+							</span>
+
+
+						</div>
+
+
+
+
+
+
+
+
+
+					</div>
+
+					<div class="aside">
+
+					</div>
+
+				</div>
+
+
+
+			</div>
+
+
+		</div>
+
+		<div id="footer">
+			<div class="notice">
+				<ul >
+					<li><strong>Talent Association</strong></li>
+					<li><strong>Korean Cuitue를 만들어 가는 것은 여러분입니다. 다양한 분야의 단체들이 한구의 문화를 후원합니다.</strong></li>
+				</ul>
+					<ul class="icon">
+						<li><a class="prev" href=""><img src="../../lib/image/icon_prev.png" alt=""></a></li>
+						<li><a class="next" href=""><img src="../../lib/image/icon_prev-02.png" alt=""></a></li>
+						<li><img src="../../lib/image/allnorth_rogo.png" alt=""></li>
+						<li><img src="../../lib/image/allnorth_rogo.png" alt=""></li>
+						<li><img src="../../lib/image/allnorth_rogo.png" alt=""></li>
+						<li><img src="../../lib/image/allnorth_rogo.png" alt=""></li>
+						<li><img src="../../lib/image/allnorth_rogo.png" alt=""></li>
+						<li><img src="../../lib/image/allnorth_rogo.png" alt=""></li>
+					</ul>
+
+			</div>
+			<div class="adress"></div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
